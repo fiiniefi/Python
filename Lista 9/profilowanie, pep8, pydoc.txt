@@ -1,0 +1,12 @@
+Profilowanie:
+python -m profile l4z1.py
+__________________________________
+PEP8:
+pip3 install pycodestyle
+pycodestyle l4z1.py
+pycodestyle z1.py
+__________________________________
+Dokumentacja przy u¿yciu pydoc:
+python -m pydoc l4z1
+Zapisanie do pliku o nazwie l4z1doc.txt:
+python -m pydoc l4z1 > l4z1doc.txt
