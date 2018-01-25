@@ -1,0 +1,112 @@
+html,body {
+    color: rgb(0,0,139);
+    background: #f0f0e0;
+    font-family: helvetica, arial, sans-serif
+}
+
+a		{ text-decoration: underline; }
+a:link		{ color: blue; }
+a:visited	{ color: rgb(0,0,139); }
+a:active	{ color: red; }
+
+
+
+div.site	{ 
+	color: rgb(0,104,159); 
+    background: white;
+    font-size:large; 
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-top: 4px;
+    }
+
+div.salve {
+   font-size: 200%;
+   text-align: center;
+   color: rgb(204,149,97);
+   margin-top: 1ex;
+   margin-bottom: 1ex;
+}
+
+/** nawigacja **/
+
+div.postit { 
+    margin-left: 2ex;
+    margin-right: 2ex;
+    border-right:   2px solid rgb(146,138,14);
+    border-bottom:  2px solid rgb(146,138,14);
+    border-left:    2px solid white;
+    border-top:     2px solid white;
+    margin: 4px;
+    background: rgb(236,223,22);
+    color: rgb(28,46,21);
+    float: left;
+}
+
+p.postit {
+    padding: 4px;
+    font-size: small;
+}
+
+h3.postit {
+    padding: 4px;
+    font-size: small;
+}
+
+div.navi p	{ border-left:    2px solid white;
+		  border-top:     2px solid white;
+		  border-right:   2px solid #806040;
+		  border-bottom:  2px solid #806040;
+		  padding-left:   2ex;
+		  padding-right:  2ex;
+		  padding-top:    0.5em;
+		  padding-bottom: 0.5em;
+		  margin-top:     0em;
+		  margin-bottom:  1em;
+		  background: #ffc080; color: black }
+
+div.navi span	{ 
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1ex
+}
+
+a.nav	{ 
+    text-decoration: none; 
+    display: block;
+    color: white;
+	text-align: left;
+    padding: 1px; 
+	border-bottom: 1px;
+}
+
+a.nav:hover {
+    color: black;
+    background: rgb(56,160,220);
+}
+
+
+
+/*** info ***/
+
+p.text,div.text {
+          border-left:    2px solid white;
+		  border-top:     2px solid white;
+		  border-right:   2px solid #806040;
+		  border-bottom:  2px solid #806040;
+          font-size:      small;
+		  padding-left:   2ex;
+		  padding-right:  2ex;
+		  padding-top:    0.5em;
+		  padding-bottom: 0.5em;
+		  margin:  4px;
+		  background:     rgb(56,160,220); 
+		  /* background:     #ffc080; */
+          color:          black; 
+          float: left;
+          }
+
+p.text pre	{ display: block; text-align: center; font-weight: bold }
